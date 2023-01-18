@@ -1,20 +1,29 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import DisplayAbook from './DisplayAbook';
 
-const DisplayAbook = (props) => {
-  const { Title, Author } = props;
+const DisplayBookList = () => {
+  const books = [
+    {
+      Id: 101,
+      Title: 'The Lord of the Rings',
+      Author: 'J. R. R. Tolkien',
+    },
+  ];
   return (
-    <li className="book_item">
-      <h2>{Title}</h2>
-      <h4>{Author}</h4>
-      <button type="button">Remove</button>
-    </li>
+    <>
+      <div className="book_cont">
+        <ul>
+          {books.map((book) => (
+            <DisplayAbook
+              Title={book.Title}
+              Author={book.Author}
+              key={book.Id}
+            />
+          ))}
+        </ul>
+      </div>
+    </>
   );
 };
 
-DisplayAbook.propTypes = {
-  Title: PropTypes.string.isRequired,
-  Author: PropTypes.string.isRequired,
-};
-
-export default DisplayAbook;
+export default DisplayBookList;
