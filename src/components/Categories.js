@@ -5,9 +5,9 @@ class Categories extends React.Component {
     return (
       <div>
         <button>Check Status</button>
-     
+
       </div>
-    )
+    );
   }
 }
 
