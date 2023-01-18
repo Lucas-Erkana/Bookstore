@@ -1,15 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-class Navbar extends React.Component {
-  render() {
-    return (
-      <div>
-        <Link to='/'>Books</Link>
-        <Link to='/categories'>Categories</Link>
-      </div>
-    )
-  }
-}
+const Navbar = () => (
+  <nav>
+    <h1>
+      Bookstore CMS
+    </h1>
+    <ul>
+      <li>
+        <Link to="/">
+          BOOKS
+        </Link>
+      </li>
+      <li>
+        <Link to="/categories">CATEGORIES</Link>
+      </li>
+    </ul>
+  </nav>
+);
 
 export default Navbar;
