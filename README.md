@@ -98,8 +98,8 @@ Project 5: Styling.
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Calculate sin,cos and tan**
-- [ ] **Calculate square root and to the power**
+- [ ] **Add a book**
+- [ ] **Add an author**
 
 <!-- LIVE DEMO -->
 
@@ -257,6 +257,6 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Lucash2022/Bookstore/blob/linters/LICENSE) licensed.
+This project is [MIT](https://github.com/Lucash2022/Bookstore/blob/components/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

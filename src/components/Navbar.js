@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => (
   <nav>
     <h1>
-      Bookstore CMS
+      Bookstore
     </h1>
     <ul>
       <li>
