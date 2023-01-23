@@ -105,7 +105,7 @@ Project 5: Styling.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://lucash2022.github.io/Bookstore" target="_blank">Live Demo Link</a>
+- <a href="https://bookstore-mz71.onrender.com" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
