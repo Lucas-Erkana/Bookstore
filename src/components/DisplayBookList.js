@@ -1,22 +1,44 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import DisplayAbook from './DisplayAbook';
+import { gettingBooks } from '../redux/fetch/booksFetcher';
 
 const DisplayBookList = () => {
-  const books = useSelector((state) => state.books);
+  const dispatch = useDispatch();
+
+  const { books } = useSelector((state) => state.books);
+
+  useEffect(() => {
+    dispatch(gettingBooks());
+  }, []);
+
   return (
     <>
       <div className="book_cont">
         <ul>
-          {books.books.map((book) => (
+          {books.map((book) => (
             <DisplayAbook
-              Id={book.id}
-              key={book.id}
+              Id={book.Id}
+              key={book.Id}
               Title={book.title}
               Author={book.author}
+              Category={book.category}
             />
           ))}
         </ul>
+        <div>
+          <div>
+            <p>80%</p>
+            <p>Completed</p>
+          </div>
+        </div>
+        <div>
+          <h4>CURRENT CHAPTER</h4>
+          <p>Chapter 9</p>
+          <div>
+            <button type="button">UPDATE PROGRESS</button>
+          </div>
+        </div>
       </div>
     </>
   );
