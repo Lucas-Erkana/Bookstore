@@ -19,20 +19,18 @@
 }
 
 .book_per {
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 300;
   color: #4386bf;
-  font-family: "Roboto Slab",serif;
+  font-family: "Roboto Slab", serif;
 }
 
-
-
 .book_title {
-    margin-top: .188rem;
-    font-size: 1.375rem;
-    letter-spacing: -.2px;
-    color: #121212;
-    font-weight: 700;
+  margin-top: 0.188rem;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
+  color: #121212;
+  font-weight: 700;
 }
 
 .book_butts {
@@ -51,7 +49,7 @@
   font-weight: 300;
   align-items: center;
   cursor: pointer;
-  color:#4386bf;
+  color: #4386bf;
 }
 
 .book_butts_remove {

@@ -15,11 +15,10 @@ h1 {
   align-items: center;
   padding: 1.5rem 0;
   letter-spacing: 0.05rem;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.875rem;
   font-weight: 700;
   color: #0290ff;
-  
 }
 
 ul {
@@ -36,11 +35,11 @@ ul {
 
 .link {
   text-decoration: none;
-  opacity: .5;
+  opacity: 0.5;
   color: #3a3a3b;
 }
 
-.link:active{
+.link:active {
   opacity: 1;
   color: #121212;
 }
@@ -78,7 +77,9 @@ ul {
   justify-content: center;
 }
 
-.user i {
+.user img {
+  width: 35px;
+  height: 35px;
   font-size: 1.6rem;
   color: #2c94f0;
 }

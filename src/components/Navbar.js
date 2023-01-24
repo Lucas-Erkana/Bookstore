@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
+import user from '../images/user.svg';
 
 const Navbar = () => (
   <div className={styles.nav_cont}>
@@ -20,7 +21,7 @@ const Navbar = () => (
       </ul>
       <div className={styles.user}>
         <div className={styles.user_min}>
-          <i className="fa-solid fa-user user" />
+          <img src={user} alt="user-icon" />
         </div>
       </div>
     </nav>
