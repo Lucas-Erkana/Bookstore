@@ -32,15 +32,26 @@
 }
 
 .butt {
+  font-family: "Roboto Slab", serif;
+  background-color: transparent;
   border: none;
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+  align-items: center;
+  cursor: pointer;
 }
 
 .book_butts_remove {
+  font-family: "Roboto Slab", serif;
+  font-size: 0.875rem;
+  font-weight: 300;
   border: none;
   border-left: 2px solid #d6d3d3c2;
   border-right: 2px solid #d6d3d3c2;
   padding: 0 0.8rem;
   margin: 0 0.8rem;
+  cursor: pointer;
 }
 
 .book_right {
