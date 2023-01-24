@@ -98,8 +98,10 @@ Project 5: Styling.
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add a book**
-- [ ] **Add an author**
+- [ ] **Add a book and Author**
+- [ ] **Remove book and author**
+- [ ] **Post to API**
+- [ ] **Display Book at API**
 
 <!-- LIVE DEMO -->
 
