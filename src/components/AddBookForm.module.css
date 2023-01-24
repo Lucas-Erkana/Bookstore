@@ -1,0 +1,46 @@
+.add_book {
+  margin-top: 2rem;
+}
+
+.add_book hr {
+  height: 1px;
+  background-color: #ffffffc2;
+}
+
+.add_book h2 {
+  margin: 1rem 0;
+  padding-top: 0.3rem;
+  color: gray;
+  font-size: 1rem;
+}
+
+form {
+  margin-bottom: 6rem;
+  display: flex;
+  gap: 2rem;
+}
+
+input {
+  padding: 0.6rem;
+  font-size: 1.2rem;
+}
+
+.input_1 {
+  flex: 5;
+}
+
+.input_2 {
+  flex: 3;
+}
+
+form button {
+  padding: 0.8rem;
+  flex: 2;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  background-color: #2c94f0;
+  border: none;
+  color: #fff;
+  box-shadow: 2px 2px 5px #fff;
+  font-weight: 600;
+}
