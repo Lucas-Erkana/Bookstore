@@ -19,7 +19,20 @@
 }
 
 .book_per {
-  color: #7b97affd;
+  font-size: .875rem;
+  font-weight: 300;
+  color: #4386bf;
+  font-family: "Roboto Slab",serif;
+}
+
+
+
+.book_title {
+    margin-top: .188rem;
+    font-size: 1.375rem;
+    letter-spacing: -.2px;
+    color: #121212;
+    font-weight: 700;
 }
 
 .book_butts {
@@ -28,18 +41,17 @@
 
 .book_butts button {
   background-color: #fff;
-  color: #7b97affd;
 }
 
 .butt {
   font-family: "Roboto Slab", serif;
   background-color: transparent;
   border: none;
-  color: #4386bf;
   font-size: 0.875rem;
   font-weight: 300;
   align-items: center;
   cursor: pointer;
+  color:#4386bf;
 }
 
 .book_butts_remove {
@@ -52,6 +64,7 @@
   padding: 0 0.8rem;
   margin: 0 0.8rem;
   cursor: pointer;
+  color: #4386bf;
 }
 
 .book_right {

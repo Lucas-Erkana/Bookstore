@@ -13,10 +13,13 @@ nav {
 
 h1 {
   align-items: center;
-  color: #2c94f0;
   padding: 1.5rem 0;
-  font-size: 1.8rem;
   letter-spacing: 0.05rem;
+  font-family: "Montserrat",sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #0290ff;
+  
 }
 
 ul {
@@ -33,15 +36,28 @@ ul {
 
 .link {
   text-decoration: none;
-  color: #b7b7b8;
+  opacity: .5;
+  color: #3a3a3b;
+}
+
+.link:active{
+  opacity: 1;
+  color: #121212;
+}
+
+.link:visited {
+  opacity: 1;
+  color: #121212;
 }
 
 .link:focus {
-  color: #3a3a3b;
+  opacity: 1;
+  color: #121212;
 }
 
 .link:hover {
-  color: #3a3a3b;
+  opacity: 1;
+  color: #121212;
 }
 
 .user {

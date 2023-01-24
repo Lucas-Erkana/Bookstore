@@ -19,7 +19,7 @@ const DisplayAbook = (props) => {
     <li className={styles.book_cont}>
       <div className={styles.book_left}>
         <p className={styles.book_cat}>{Category}</p>
-        <h2>{Title}</h2>
+        <h2 className={styles.book_title}>{Title}</h2>
         <p className={styles.book_per}>{Author}</p>
         <div className={styles.book_butts}>
           <button type="button" className={styles.butt}>
