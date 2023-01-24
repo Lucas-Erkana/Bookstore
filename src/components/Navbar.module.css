@@ -1,0 +1,85 @@
+.nav_cont {
+  width: 100%;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  gap: 2.5rem;
+  padding-left: 2.8rem;
+  align-items: center;
+}
+
+h1 {
+  align-items: center;
+  padding: 1.5rem 0;
+  letter-spacing: 0.05rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #0290ff;
+}
+
+ul {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.small_cont {
+  list-style-type: none;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+
+.link {
+  text-decoration: none;
+  opacity: 0.5;
+  color: #3a3a3b;
+}
+
+.link:active {
+  opacity: 1;
+  color: #121212;
+}
+
+.link:visited {
+  opacity: 1;
+  color: #121212;
+}
+
+.link:focus {
+  opacity: 1;
+  color: #121212;
+}
+
+.link:hover {
+  opacity: 1;
+  color: #121212;
+}
+
+.user {
+  background-color: #fff;
+  list-style-type: none;
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.user_min {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #c4c2c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user img {
+  width: 35px;
+  height: 35px;
+  font-size: 1.6rem;
+  color: #2c94f0;
+}

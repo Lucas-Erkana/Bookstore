@@ -1,0 +1,10 @@
+.books_cont {
+  background-color: #f8f6f6;
+}
+
+.books_min_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}

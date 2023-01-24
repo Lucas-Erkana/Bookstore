@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import DisplayAbook from './DisplayAbook';
 import { gettingBooks } from '../redux/fetch/booksFetcher';
+import styles from './DisplayBookList.module.css';
 
 const DisplayBookList = () => {
   const dispatch = useDispatch();
@@ -14,8 +15,8 @@ const DisplayBookList = () => {
 
   return (
     <>
-      <div className="book_cont">
-        <ul>
+      <div className={styles.books_cont}>
+        <ul className={styles.books_min_cont}>
           {books.map((book) => (
             <DisplayAbook
               Id={book.Id}
@@ -26,19 +27,6 @@ const DisplayBookList = () => {
             />
           ))}
         </ul>
-        <div>
-          <div>
-            <p>85%</p>
-            <p>Completed</p>
-          </div>
-        </div>
-        <div>
-          <h4>CURRENT CHAPTER</h4>
-          <p>Chapter 7: “The Boggart in the Wardrobe”</p>
-          <div>
-            <button type="button">UPDATE PROGRESS</button>
-          </div>
-        </div>
       </div>
     </>
   );

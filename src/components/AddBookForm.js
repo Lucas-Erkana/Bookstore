@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { nanoid } from '@reduxjs/toolkit';
 import { addingBook } from '../redux/fetch/booksFetcher';
+import styles from './AddBookForm.module.css';
 
 const AddBookForm = () => {
   const [newState, setnewState] = useState({
@@ -34,11 +35,13 @@ const AddBookForm = () => {
   };
 
   return (
-    <div className="add_book">
+    <div className={styles.add_book}>
+      <hr />
       <h2>ADD NEW BOOK</h2>
       <div>
         <form onSubmit={onSubmitHandler}>
           <input
+            className={styles.input_1}
             type="text"
             name="title"
             placeholder="Add Title"
@@ -47,6 +50,7 @@ const AddBookForm = () => {
             onChange={onChangeHandler}
           />
           <input
+            className={styles.input_2}
             type="text"
             name="author"
             placeholder="Add Author"
