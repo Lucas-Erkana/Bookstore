@@ -10,7 +10,7 @@ const DisplayBookList = () => {
 
   useEffect(() => {
     dispatch(gettingBooks());
-  }, [dispatch]);
+  }, []);
 
   return (
     <>
@@ -26,6 +26,19 @@ const DisplayBookList = () => {
             />
           ))}
         </ul>
+        <div>
+          <div>
+            <p>85%</p>
+            <p>Completed</p>
+          </div>
+        </div>
+        <div>
+          <h4>CURRENT CHAPTER</h4>
+          <p>Chapter 7: “The Boggart in the Wardrobe”</p>
+          <div>
+            <button type="button">UPDATE PROGRESS</button>
+          </div>
+        </div>
       </div>
     </>
   );
