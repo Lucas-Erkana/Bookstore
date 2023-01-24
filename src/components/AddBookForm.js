@@ -1,17 +1,22 @@
 import React, { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { addingBook } from '../redux/books/books';
+import { useDispatch } from 'react-redux';
+import { nanoid } from '@reduxjs/toolkit';
+import { addingBook } from '../redux/fetch/booksFetcher';
 
 const AddBookForm = () => {
-  const [newState, setnewState] = useState({ id: '', title: '', author: '' });
+  const [newState, setnewState] = useState({
+    item_id: '',
+    title: '',
+    author: '',
+    category: '',
+  });
 
-  const arr = useSelector((state) => state.books.books);
-  const id = arr.length;
-  const onChange = (event) => {
+  const onChangeHandler = (event) => {
     setnewState({
       ...newState,
-      id: (id + 1).toString(),
+      item_id: nanoid(),
       [event.target.name]: event.target.value,
+      category: 'Category Action',
     });
   };
 
@@ -20,7 +25,12 @@ const AddBookForm = () => {
   const onSubmitHandler = (e) => {
     e.preventDefault();
     dispatch(addingBook(newState));
-    setnewState({ id: '', title: '', author: '' });
+    setnewState({
+      item_id: '',
+      title: '',
+      author: '',
+      category: 'Category Action',
+    });
   };
 
   return (
@@ -34,7 +44,7 @@ const AddBookForm = () => {
             placeholder="Add Title"
             required
             value={newState.title}
-            onChange={onChange}
+            onChange={onChangeHandler}
           />
           <input
             type="text"
@@ -42,7 +52,7 @@ const AddBookForm = () => {
             placeholder="Add Author"
             required
             value={newState.author}
-            onChange={onChange}
+            onChange={onChangeHandler}
           />
           <button type="submit">ADD BOOK </button>
         </form>
