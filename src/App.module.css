@@ -4,3 +4,14 @@
   padding: 2.8rem;
   border: 2px;
 }
+
+button {
+  font-family: "Roboto Slab",serif;
+  background-color: transparent;
+  border: none;
+  color: #4386bf;
+  font-size: .875rem;
+  font-weight: 300;
+  align-items: center;
+  cursor: pointer;
+}

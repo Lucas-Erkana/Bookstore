@@ -11,7 +11,7 @@ const DisplayBookList = () => {
 
   useEffect(() => {
     dispatch(gettingBooks());
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
