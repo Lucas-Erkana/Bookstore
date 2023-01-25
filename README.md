@@ -29,13 +29,13 @@ Project 5: Styling.
 # 📗 Table of Contents
 
 - [� Table of Contents](#-table-of-contents)
-- [📖 Bookstore](#-about-project-)
+- [📖 Bookstore ](#-bookstore-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
       - [🔭 Future Features ](#-future-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [🚀 Video Presentation ](#-Video-Project-Presentation-)
+  - [🚀 Video Presentation ](#-video-project-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
     - [Install](#install)
@@ -51,14 +51,15 @@ Project 5: Styling.
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Bookstore <a name="about-project"></a>
+## 📖 Bookstore <a name="about-project"></a>
 
 >In this project I will setup the Bookstore website similar to the "Awesome Books" website built in the previous module. I will create an MVP version of it that allows the user to:
 Display a list of books, 
 Add a book, and 
 Remove a selected book.
 
-**Bookstore app**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -112,6 +113,7 @@ Remove a selected book.
 - [ ] **Update the progress of the book**
 - [ ] **Add a category**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -121,7 +123,7 @@ Remove a selected book.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Video Project Presentation <a name="live-demo"></a>
+## 🚀 Video Project Presentation <a name="video-project-presentation"></a>
 
 - <a href="" target="_blank">Video Project Presentation Link</a>
 
