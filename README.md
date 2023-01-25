@@ -29,7 +29,7 @@ Project 5: Styling.
 # 📗 Table of Contents
 
 - [� Table of Contents](#-table-of-contents)
-- [📖 Math Magicians ](#-math_magic_react-)
+- [📖 Bookstore](#-about-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
