@@ -35,7 +35,7 @@ Project 5: Styling.
     - [Key Features ](#key-features-)
       - [🔭 Future Features ](#-future-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [🚀 Video Presentation ](#-video-project-presentation-)
+  - [🎞️ Video Presentation ](#-video-project-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
     - [Install](#install)
@@ -123,7 +123,7 @@ Remove a selected book.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Video Project Presentation <a name="video-project-presentation"></a>
+## 🎞️ Video Project Presentation <a name="video-project-presentation"></a>
 
 - <a href="" target="_blank">Video Project Presentation Link</a>
 
