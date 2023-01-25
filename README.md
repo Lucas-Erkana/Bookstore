@@ -134,7 +134,7 @@ Clone this repository to your desired folder:
 
 ```sh
   git clone https://github.com/Lucash2022/Bookstore.git
-  cd math_magiacian_react
+  cd bookstore
 ```
 
 ### Install
