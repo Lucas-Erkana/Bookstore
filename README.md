@@ -246,6 +246,7 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+[Icon Scouts]( https://iconscout.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
