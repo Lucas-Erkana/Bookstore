@@ -4,7 +4,12 @@
   <h1>Bookstore</h1>
 
 
->In this react project I will lay the foundations for my Bookstore website. I will create the React part of the app. I will also set up routing using React
+>In this project I will setup the Bookstore website similar to the "Awesome Books" website built in the previous module. I will create an MVP version of it that allows the user to:
+
+Display a list of books.
+Add a book.
+Remove a selected book.
+By building this application, I will learn how to use React and Redux.
 
 Project 1: Initialize project with components (React only).
 Project 2: Add reducers and actions.
