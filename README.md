@@ -1,20 +1,20 @@
-<a name="readme-top"></a>
 
 <div align="left">
   <h1>Bookstore</h1>
 
 
->In this project I will setup the Bookstore website similar to the "Awesome Books" website built in the previous module. I will create an MVP version of it that allows the user to:
-
-Display a list of books.
-Add a book.
-Remove a selected book.
+>In this project I will setup the Bookstore website similar to the "Awesome Books" website built in the previous module. I will create an MVP version of it that allows the user to display a list of books, 
+add a book, and remove a selected book.
 By building this application, I will learn how to use React and Redux.
 
 Project 1: Initialize project with components (React only).
+
 Project 2: Add reducers and actions.
+
 Project 3: Use Redux in React components.
+
 Project 4: Connect to API.
+
 Project 5: Styling.
 
 
@@ -25,10 +25,8 @@ Project 5: Styling.
 
 <div>
 <!-- TABLE OF CONTENTS -->
-
-# 📗 Table of Contents
-
-- [� Table of Contents](#-table-of-contents)
+ 
+## 📗 Table of Contents <a name="readme-top"></a>
 - [📖 Bookstore ](#-bookstore-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
