@@ -86,8 +86,10 @@ Project 5: Styling.
 
 ### Key Features <a name="key-features"></a>
 
-- **Click on Categories and Display a Status**
-- **Click on Books and display a list of Books**
+- **Add a book and Author**
+- **Remove book and author**
+- **Post to API**
+- **Display Book from API**
 
 
 
@@ -98,10 +100,10 @@ Project 5: Styling.
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add a book and Author**
-- [ ] **Remove book and author**
-- [ ] **Post to API**
-- [ ] **Display Book at API**
+- [ ] **Edit books**
+- [ ] **Update the progress of the book**
+- [ ] **Add a category**
+
 
 <!-- LIVE DEMO -->
 
