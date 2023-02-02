@@ -3,8 +3,12 @@
   <h1>Bookstore</h1>
 
 
->In this project I will setup the Bookstore website similar to the "Awesome Books" website built in the previous module. I will create an MVP version of it that allows the user to display a list of books, 
-add a book, and remove a selected book.
+>The Bookstore is a book register website that stores books using the title and author. It is an MVP version of it that allows you to:
+
+- Display a list of books.
+- Add a book.
+- Remove a selected book.
+
 By building this application, I will learn how to use React and Redux.
 
 Project 1: Initialize project with components (React only).
