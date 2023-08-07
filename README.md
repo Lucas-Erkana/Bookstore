@@ -145,7 +145,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/Lucash2022/Bookstore.git
+  git clone https://github.com/Lucas-Erkana/Bookstore.git
   cd bookstore
 ```
 
@@ -212,7 +212,7 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 <h4>Lucas Erkana</h4>
 
-<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucash2022)
+<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucas-Erkana)
 <br>
 <img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/@Lucas_David_22)
 <br>
@@ -234,7 +234,7 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Lucash2022/Bookstore/issues).
+Feel free to check the [issues page](https://github.com/Lucas-Erkana/Bookstore/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -274,6 +274,6 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Lucash2022/Bookstore/blob/components/LICENSE) licensed.
+This project is [MIT](https://github.com/Lucas-Erkana/Bookstore/blob/components/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
